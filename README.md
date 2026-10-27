@@ -1,4 +1,10 @@
-  Engiish Version:
+
+
+Note that:
+We have updated the original code. All the files have been uploaded. The latest file is named "New_OE_MAUVs_Bipartite_Consensus_R3.zip".
+
+  
+Engiish Version:
   This paper presents a novel adaptive super-twisting control framework for achieving bipartite consensus of multiple autonomous underwater vehicles (MAUVs) over signed networks. Unlike the conventional super-twisting algorithm (STA), which typically relies on conservative a priori gain selection, the proposed method incorporates barrier functions (BF) into the STA framework. This guarantees safety constraint satisfaction by strictly confining the consensus errors within a predefined neighborhood of $\pm 0.1$  m, while demonstrating strong robustness against uncertainties and reducing control effort without prior knowledge of disturbance bounds. To further improve communication efficiency, an event-triggered mechanism is introduced, which guarantees Zeno-free behavior. By integrating adaptive STA, BF-based constraint handling, and event-triggered communication, an event-triggered barrier-function-based adaptive super-twisting control (ETBFASTC) protocol is developed. Rigorous Lyapunov-based analysis establishes the finite-time stability of the closed-loop system, proving that bipartite consensus is achieved within a theoretical upper bound of $T$. Finally, numerical simulations validate the superiority of the proposed approach. The results demonstrate that the MAUVs achieve precise bipartite formation within 2 s, while the event-triggered mechanism yields about  50\% reduction in communication and control update frequency compared to traditional time-triggered continuous schemes.
 
 
